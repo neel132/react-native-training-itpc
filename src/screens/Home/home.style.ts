@@ -22,3 +22,11 @@ const style = StyleSheet.create({
   }
 });
 export default style;
+/*
+  Flex box -
+  1. flex
+  2. justifyContent
+  3. alignItems
+  4. flexDirection
+  5. flexWrap
+*/
