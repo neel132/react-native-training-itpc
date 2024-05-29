@@ -1,0 +1,8 @@
+React fundamentals -
+1. Class Component
+2. Functional Component
+3. React Lifecycle
+4. State - It is mutable 
+5. Props - It is immutable
+6. Conditional Rendering
+7. Hooks

@@ -10,6 +10,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import Login from "./src/screens/Login/Login";
 import {store, persistor} from "./src/redux/store";
 import { PersistGate } from "redux-persist/integration/react";
+import Employee from "./src/screens/Employee/Employee";
 
 // const Tab = createBottomTabNavigator();
 
@@ -42,6 +43,11 @@ function App(): JSX.Element {
             name="AboutUs"
             component={About}
             options={{ title: "About" }}
+          />
+          <Drawer.Screen
+            name="Employee"
+            component={Employee}
+            options={{ title: "Employee" }}
           />
         </Drawer.Navigator>
       ) : (

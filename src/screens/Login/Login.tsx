@@ -1,8 +1,12 @@
-import { Text } from "react-native";
+import { Text, View } from "react-native";
 
 const Login = () => {
   return (
-    <Text>This is a login Screen</Text>
+    <View style={{flex: 1, justifyContent: 'space-evenly'}}>
+      <View style={{flex: 0.3, backgroundColor: 'red'}} />
+      <View style={{flex: 0.3, backgroundColor: 'blue'}} />
+      <View style={{flex: 0.3, backgroundColor: 'green'}} />
+    </View>
   );
 }
 export default Login;

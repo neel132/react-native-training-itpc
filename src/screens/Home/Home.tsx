@@ -31,7 +31,7 @@ const Home = (props) => {
             counter % 2 === 0 && <Text style={style.evenNumberText}>This is an even number</Text>
           }
         </View>
-      <CustomButton label={"Increment By 1"} onPress={() => setCounter(1)} />
+      <CustomButton label={"Increment By 1"} onPress={() => setCounter(5)} />
       </View>
       <CustomButton label={"About Us"} onPress={navigate} />
     </View>
